@@ -1,0 +1,144 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.footer-buttom{
+    width: 100%;
+    height: 70px;
+    color: #adadad;
+    background: black;
+    text-align: center;
+    padding: 5px;
+}
+
+.atas {
+    padding: 10px 0;
+    background-color: #444444;
+}
+
+.ellen{
+    width: 1300px;
+    margin: auto;
+    position: relative;
+}
+
+
+.logo a {
+    font-size: 50px;
+    font-weight: bold;
+    float: right;
+    font-family: sans-serif;
+    color: #171717;
+}
+
+.menu{
+    float: left;
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 50px;
+    position: sticky;
+    top: 0;
+    background: #FFFFFF;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: right;
+
+}
+
+nav ul li a {
+    color: #171717 ;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 14px 0px 14px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.deks {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.deks .deksripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+    color: #171717;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: monospace;
+    color: #171717;
+    width: 100%;
+    line-height: 40px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: monospace;
+    color: #171717;
+    width: 100%;
+    line-height: 20px;
+}
+
+a.tbl-merah {
+    background: #DA0037;
+    border-radius: 30px;
+    margin-top: 25px;
+    padding: 25px 20px 25x 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru{
+    background: #0075F6;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px 15px 10px 15px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: pink;
+    text-decoration: none;
+}
+p {
+    margin: 7px 0px 7px 0px;
+    padding: 7px 0px 7px 0px;
+
+}
